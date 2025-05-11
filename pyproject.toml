@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "st4_py38" }
+packages    = ["lsp_utils"]
+
+[project]
+name = "lsp_utils"
+requires-python = "== 3.8"
+dependencies = ["semantic-version"]
