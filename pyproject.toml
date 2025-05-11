@@ -10,3 +10,4 @@ packages    = ["lsp_utils"]
 name = "lsp_utils"
 requires-python = "== 3.8"
 dependencies = ["semantic-version"]
+version = "0.0.0"
